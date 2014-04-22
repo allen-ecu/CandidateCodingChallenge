@@ -1,0 +1,103 @@
+﻿<!-- Candidate Coding Challenge 2014-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/gif" href="favicon.png">
+<title>Pines School District Academic Results</title>
+<meta charset="US-ASCII">
+<meta name="Robots" content="index, follow">
+<meta name="Keywords" content="Pines School District,Academic Results, Transcript, Y3, Y5, Y7, Y9"/>
+<meta name="Description" content="Pines School District Academic Results Transcript Y3 Y5 Y7 Y9"/>
+<meta name="Viewport" content="width=device-width,height=device-height,initial-scale=1">
+<meta name="Author" content="weiqingmao" />
+<meta name="Devloper" content="WEIQING MAO +61 4 3238 8818 PERTH WESTERN AUSTRALIA DUSTONLYPERTH@GMAIL.COM" />
+<meta name="Version" content="0.1" />
+
+<meta property="og:title" content="Pines School District Academic Results" />
+<meta property="og:type" content="EDUCATION.SCHOOL.ACADEMIC" />
+<meta property="og:url" content="http://xxx.edu.au/psd/" />
+<meta property="og:image" content="http://www.xxx.edu.au/favicon.png" />
+<meta property="og:description " content="Pines School District Academic Results Transcript Y3 Y5 Y7 Y9" />
+<meta property="og:locale" content="en_AU" />
+<meta property="og:site_name" content="Pines School District Academic Results" />
+<meta property="og:version" content="0.1" />
+
+<link rel="stylesheet" href="css/pure-min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/ie7.css">
+<![endif]-->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+<![endif]-->
+<style>
+@font-face
+{
+font-family: fontawesome;
+src: url(font/fontawesome-webfont.ttf);
+font-weight:normal;
+}
+</style>
+</head>
+<body>
+<div id="wrapper" class="pure-g-r"><!-- start wrapper-->
+<!-- top panel -->
+<section id="topPanel" class="pure-u-1-1">
+<p class="currentDir">Pines School District <span class="currentPage">/ </span><span id="curDirVal" class="currentPage">Grammer Punctuation</span></p>
+<br>
+</section>
+<!-- left panel -->
+<section id="leftPanel" class="pure-u-4-5">
+<table id="tableData" class="tablesorter pure-table-horizontal pure-table-striped"> 
+<thead> 
+<tr> 
+    <th id="hd0">School&nbsp;<i id="hd0" class="fa fa-sort fa-lg"></i></th> 
+    <th id="hd1">Y3&nbsp;<i id="hd1" class="fa fa-sort fa-lg"></i></th> 
+    <th id="hd2">Y5&nbsp;<i id="hd2" class="fa fa-sort fa-lg"></i></th> 
+    <th id="hd3">Y7&nbsp;<i id="hd3" class="fa fa-sort fa-lg"></i></th> 
+    <th id="hd4">Y9&nbsp;<i id="hd4" class="fa fa-sort fa-lg"></i></th> 
+    <th id="hd5">Raw Gain Y3 to Y5&nbsp;<i id="hd5" class="fa fa-sort fa-lg"></i></th>
+    <th id="hd6">Factored Gain Y3 to Y5&nbsp;<i id="hd6" class="fa fa-sort fa-lg"></i></th>
+    <th id="hd7">CLG% Y3 to Y5&nbsp;<i id="hd7" class="fa fa-sort fa-lg"></i></th>
+    <th id="hd8">Gain in Gain Y3 to Y5&nbsp;<i id="hd8" class="fa fa-sort fa-lg"></i></th>
+</tr> 
+</thead> 
+<tbody id="tableBody"> 
+<!-- tr td data loads here-->
+</tbody> 
+</table>
+</section>
+<!-- right panel -->
+<section id="rightPanel" class="pure-u-1-5">
+<div>
+<div><!-- search bar -->
+<label for="search"><i class="fa fa-search"></i>Search Student</label>
+</div>
+<div>
+<input id="search" type="text" class="pure-input-1-1">
+</div>
+<div>
+<label for="subject">Subject</label>
+</div>
+<div><!-- dropdown list -->
+<select id="subject" class="pure-input-1-1" onchange="selectSubject()">
+      <option value="0" selected="selected">Grammar &amp; Punctuation</option><i class="fa fa-check"></i>
+      <option value="1">Numeracy<i class="fa fa-check"></i></option>
+      <option value="2">Persuasive Writing</option>
+      <option value="3">Reading</option>
+      <option value="4">Spelling</option>
+</select>
+</div>
+</div>
+</section>
+
+</div><!-- end wrapper-->
+<!-- js -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

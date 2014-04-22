@@ -1,0 +1,82 @@
+﻿/* WEIQING MAO +61 4 3238 8818 PERTH WESTERN AUSTRALIA DUSTONLYPERTH@GMAIL.COM */
+body {
+	padding:20px;
+	font-size:11px;
+	font-family:'Open Sans','lucida grande','Segoe UI',arial, verdana, 'lucida sans unicode', tahoma, sans-serif;
+	text-align:left;
+	font-weight:normal;
+	color:#000;
+}
+table {
+	border:1px #eee solid;
+	border-radius:5px;
+
+}
+table th{
+	background-color:#fff;
+	padding:5px 8px 5px;
+}
+table td{
+	padding:5px 8px 5px;
+}
+#topPanel {
+	margin-left:-5px;
+}
+#leftPanel {
+	margin:0;
+	padding:0;
+}
+#rightPanel {
+	
+}
+#rightPanel > div:first-of-type {
+	padding:10px 30px 10px 30px;
+}
+#rightPanel > td {
+	color:#000;
+}
+#rightPanel label {
+	font-weight:bold;
+	width:250px;
+	margin:10px 0 10px 0;
+	font-size:14px;
+}
+tr td:nth-child(1){
+	color:#009DD7;
+}
+table tr:nth-child(odd){
+	background-color:#c9c9c9;
+}
+
+#rightPanel input  {
+	border-radius:4px;
+	border:2px #ddd solid;
+	width:250px;
+	margin:10px 20px 20px 0;
+	font-size:14px;
+	padding:5px;
+}
+#rightPanel select {
+	border-radius:4px;
+	border:1px #ccc solid;
+	width:263px;
+	margin:10px 20px 20px 0;
+	font-size:14px;
+	padding:5px;
+	background-color:#e6e6e6;
+	box-shadow:0 0 0 1px #ccc;
+}
+#rightPanel select option{
+	background-color:#fff;
+	background-image:url('../img/check.png');
+	margin:20px;
+	box-shadow:1px 1px 1px 1px #ccc;
+}
+.currentDir {
+	font-size:13px;
+	color:#009DD7;
+	font-weight:bold;
+}
+.currentPage {
+	color:#9C99B2;
+}

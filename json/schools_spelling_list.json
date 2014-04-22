@@ -1,0 +1,284 @@
+{
+  "schools": [
+    {
+      "school": {
+        "schoolName": "St. Aaron College"
+      },
+      "subject": "numeracy",
+      "latestY3": 413.55,
+      "latestY5": 494.25,
+      "latestY7": 0.0,
+      "latestY9": 0.0,
+      "rawGainY3Y5": 61.4917,
+      "factoredGainY3Y5": 69.81,
+      "glgY3Y5": 113.52757826,
+      "latestGainInGainY3Y5": -7.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Alan College"
+      },
+      "subject": "numeracy",
+      "latestY3": 380.5125,
+      "latestY5": 469.9,
+      "latestY7": 510.85,
+      "latestY9": 558.7125,
+      "rawGainY3Y5": 84.6607,
+      "factoredGainY3Y5": 90.76,
+      "glgY3Y5": 107.20438726,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Alexander College"
+      },
+      "subject": "numeracy",
+      "latestY3": 391.0125,
+      "latestY5": 513.925,
+      "latestY7": 0.0,
+      "latestY9": 0.0,
+      "rawGainY3Y5": 87.6917,
+      "factoredGainY3Y5": 77.06,
+      "glgY3Y5": 87.87608097,
+      "latestGainInGainY3Y5": 3.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Alyssa College"
+      },
+      "subject": "numeracy",
+      "latestY3": 389.525,
+      "latestY5": 485.075,
+      "latestY7": 508.525,
+      "latestY9": 595.625,
+      "rawGainY3Y5": 94.5607,
+      "factoredGainY3Y5": 86.94,
+      "glgY3Y5": 91.94092986,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Ana Paloma College"
+      },
+      "subject": "numeracy",
+      "latestY3": 318.775,
+      "latestY5": 423.25,
+      "latestY7": 482.3,
+      "latestY9": 509.725,
+      "rawGainY3Y5": 115.55,
+      "factoredGainY3Y5": 111.57,
+      "glgY3Y5": 96.55560363,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Andrea College"
+      },
+      "subject": "numeracy",
+      "latestY3": 418.1375,
+      "latestY5": 516.65,
+      "latestY7": 0.0,
+      "latestY9": 0.0,
+      "rawGainY3Y5": 90.7333,
+      "factoredGainY3Y5": 72.33,
+      "glgY3Y5": 79.71711977,
+      "latestGainInGainY3Y5": 8.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Angel De Jesus College"
+      },
+      "subject": "numeracy",
+      "latestY3": 408.225,
+      "latestY5": 488.375,
+      "latestY7": 513.2,
+      "latestY9": 599.85,
+      "rawGainY3Y5": 77.2536,
+      "factoredGainY3Y5": 78.51,
+      "glgY3Y5": 101.62636956,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Angie College"
+      },
+      "subject": "numeracy",
+      "latestY3": 360.275,
+      "latestY5": 452.875,
+      "latestY7": 506.2,
+      "latestY9": 527.925,
+      "rawGainY3Y5": 92.0643,
+      "factoredGainY3Y5": 98.69,
+      "glgY3Y5": 107.19683451,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Anthony College"
+      },
+      "subject": "numeracy",
+      "latestY3": 335.625,
+      "latestY5": 463.975,
+      "latestY7": 0.0,
+      "latestY9": 0.0,
+      "rawGainY3Y5": 81.2833,
+      "factoredGainY3Y5": 93.9,
+      "glgY3Y5": 115.5218372,
+      "latestGainInGainY3Y5": -22.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Ashley College"
+      },
+      "subject": "numeracy",
+      "latestY3": 352.4125,
+      "latestY5": 435.95,
+      "latestY7": 536.55,
+      "latestY9": 555.875,
+      "rawGainY3Y5": 90.535,
+      "factoredGainY3Y5": 90.68,
+      "glgY3Y5": 100.16015905,
+      "latestGainInGainY3Y5": -28.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Bernardo College"
+      },
+      "subject": "numeracy",
+      "latestY3": 372.675,
+      "latestY5": 467.0,
+      "latestY7": 0.0,
+      "latestY9": 0.0,
+      "rawGainY3Y5": 71.5667,
+      "factoredGainY3Y5": 88.49,
+      "glgY3Y5": 123.64694923,
+      "latestGainInGainY3Y5": -1.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Brieanna College"
+      },
+      "subject": "numeracy",
+      "latestY3": 355.75,
+      "latestY5": 442.175,
+      "latestY7": 493.95,
+      "latestY9": 511.925,
+      "rawGainY3Y5": 93.2429,
+      "factoredGainY3Y5": 100.33,
+      "glgY3Y5": 107.60073541,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Bruce College"
+      },
+      "subject": "numeracy",
+      "latestY3": 418.075,
+      "latestY5": 555.975,
+      "latestY7": 583.1,
+      "latestY9": 621.775,
+      "rawGainY3Y5": 118.2786,
+      "factoredGainY3Y5": 73.81,
+      "glgY3Y5": 62.40352678,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Cameron College"
+      },
+      "subject": "numeracy",
+      "latestY3": 381.4,
+      "latestY5": 477.525,
+      "latestY7": 505.9,
+      "latestY9": 547.65,
+      "rawGainY3Y5": 79.375,
+      "factoredGainY3Y5": 90.39,
+      "glgY3Y5": 113.87716535,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Cameryn College"
+      },
+      "subject": "numeracy",
+      "latestY3": 375.675,
+      "latestY5": 453.3,
+      "latestY7": 0.0,
+      "latestY9": 0.0,
+      "rawGainY3Y5": 71.8667,
+      "factoredGainY3Y5": 90.84,
+      "glgY3Y5": 126.40074212,
+      "latestGainInGainY3Y5": -11.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Cesar College"
+      },
+      "subject": "numeracy",
+      "latestY3": 415.0875,
+      "latestY5": 521.175,
+      "latestY7": 0.0,
+      "latestY9": 0.0,
+      "rawGainY3Y5": 89.575,
+      "factoredGainY3Y5": 73.63,
+      "glgY3Y5": 82.19927435,
+      "latestGainInGainY3Y5": 5.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Chance College"
+      },
+      "subject": "numeracy",
+      "latestY3": 408.775,
+      "latestY5": 515.125,
+      "latestY7": 564.15,
+      "latestY9": 614.625,
+      "rawGainY3Y5": 108.35,
+      "factoredGainY3Y5": 78.25,
+      "glgY3Y5": 72.21965851,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Ciara College"
+      },
+      "subject": "numeracy",
+      "latestY3": 394.0625,
+      "latestY5": 538.3,
+      "latestY7": 0.0,
+      "latestY9": 0.0,
+      "rawGainY3Y5": 63.4167,
+      "factoredGainY3Y5": 57.6,
+      "glgY3Y5": 90.82785808,
+      "latestGainInGainY3Y5": -4.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Claudia College"
+      },
+      "subject": "numeracy",
+      "latestY3": 399.15,
+      "latestY5": 484.525,
+      "latestY7": 534.925,
+      "latestY9": 567.975,
+      "rawGainY3Y5": 83.9536,
+      "factoredGainY3Y5": 82.68,
+      "glgY3Y5": 98.48300506,
+      "latestGainInGainY3Y5": 0.0
+    },
+    {
+      "school": {
+        "schoolName": "St. Danae College"
+      },
+      "subject": "numeracy",
+      "latestY3": 372.225,
+      "latestY5": 495.8,
+      "latestY7": 0.0,
+      "latestY9": 0.0,
+      "rawGainY3Y5": 104.3333,
+      "factoredGainY3Y5": 90.14,
+      "glgY3Y5": 86.39616613,
+      "latestGainInGainY3Y5": 23.0
+    }
+  ]
+}
