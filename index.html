@@ -12,7 +12,7 @@
 <meta name="Viewport" content="width=device-width,height=device-height,initial-scale=1">
 <meta name="Author" content="weiqingmao" />
 <meta name="Devloper" content="WEIQING MAO +61 4 3238 8818 PERTH WESTERN AUSTRALIA DUSTONLYPERTH@GMAIL.COM" />
-<meta name="Version" content="0.1" />
+<meta name="Version" content="0.2" />
 
 <meta property="og:title" content="Pines School District Academic Results" />
 <meta property="og:type" content="EDUCATION.SCHOOL.ACADEMIC" />
@@ -21,10 +21,11 @@
 <meta property="og:description " content="Pines School District Academic Results Transcript Y3 Y5 Y7 Y9" />
 <meta property="og:locale" content="en_AU" />
 <meta property="og:site_name" content="Pines School District Academic Results" />
-<meta property="og:version" content="0.1" />
+<meta property="og:version" content="0.2" />
 
 <link rel="stylesheet" href="css/pure-min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/theme.default.css">
 <link rel="stylesheet" href="css/style.css">
 
 <!--[if lte IE 8]>
@@ -54,15 +55,15 @@ font-weight:normal;
 <table id="tableData" class="tablesorter pure-table-horizontal pure-table-striped"> 
 <thead> 
 <tr> 
-    <th id="hd0">School&nbsp;<i id="hd0" class="fa fa-sort fa-lg"></i></th> 
-    <th id="hd1">Y3&nbsp;<i id="hd1" class="fa fa-sort fa-lg"></i></th> 
-    <th id="hd2">Y5&nbsp;<i id="hd2" class="fa fa-sort fa-lg"></i></th> 
-    <th id="hd3">Y7&nbsp;<i id="hd3" class="fa fa-sort fa-lg"></i></th> 
-    <th id="hd4">Y9&nbsp;<i id="hd4" class="fa fa-sort fa-lg"></i></th> 
-    <th id="hd5">Raw Gain Y3 to Y5&nbsp;<i id="hd5" class="fa fa-sort fa-lg"></i></th>
-    <th id="hd6">Factored Gain Y3 to Y5&nbsp;<i id="hd6" class="fa fa-sort fa-lg"></i></th>
-    <th id="hd7">CLG% Y3 to Y5&nbsp;<i id="hd7" class="fa fa-sort fa-lg"></i></th>
-    <th id="hd8">Gain in Gain Y3 to Y5&nbsp;<i id="hd8" class="fa fa-sort fa-lg"></i></th>
+    <th id="hd0">School</th> 
+    <th id="hd1">Y3</th> 
+    <th id="hd2">Y5</th> 
+    <th id="hd3">Y7</th> 
+    <th id="hd4">Y9</th> 
+    <th id="hd5">Raw Gain Y3 to Y5</th>
+    <th id="hd6">Factored Gain Y3 to Y5</th>
+    <th id="hd7">CLG% Y3 to Y5</th>
+    <th id="hd8">Gain in Gain Y3 to Y5</th>
 </tr> 
 </thead> 
 <tbody id="tableBody"> 
@@ -84,8 +85,8 @@ font-weight:normal;
 </div>
 <div><!-- dropdown list -->
 <select id="subject" class="pure-input-1-1" onchange="selectSubject()">
-      <option value="0" selected="selected">Grammar &amp; Punctuation</option><i class="fa fa-check"></i>
-      <option value="1">Numeracy<i class="fa fa-check"></i></option>
+      <option value="0" selected="selected">Grammar &amp; Punctuation</option>
+      <option value="1">Numeracy</option>
       <option value="2">Persuasive Writing</option>
       <option value="3">Reading</option>
       <option value="4">Spelling</option>

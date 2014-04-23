@@ -68,7 +68,6 @@ table tr:nth-child(odd){
 }
 #rightPanel select option{
 	background-color:#fff;
-	background-image:url('../img/check.png');
 	margin:20px;
 	box-shadow:1px 1px 1px 1px #ccc;
 }

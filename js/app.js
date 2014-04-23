@@ -1,24 +1,13 @@
-	//WEIQING MAO +61 4 3238 8818 PERTH WESTERN AUSTRALIA DUSTONLYPERTH@GMAIL.COM
+//WEIQING MAO +61 4 3238 8818 PERTH WESTERN AUSTRALIA DUSTONLYPERTH@GMAIL.COM
 	$(document).ready(function() 
     { 	
     	//load json file for numeracy_list
-    	var url = "json/schools_numeracy_list.json";
+    	var url = "json/schools_grammer_punctuation_list.json";
     	//load to table ID
     	var containerID = "tableBody";
-	    loadJSON(url,containerID);
-    }); 
-	
-	// table head sorting
-	$("th").click(function(event) { 
-	    var cid = event.target.id.substring(2);
-	    $("#tableData").tablesorter();
-		$("#tableData").trigger("update");
-		var sorting = [[cid,0]]; 
-		//var sorting = [[0,0],[cid,0]];  
-        $("#tableData").trigger("sorton",[sorting]);
-		return false;
-	});
-	
+	    updateTable(url, containerID);    
+	}); 
+		
 	// use ajax load json via dropdown list 
 	function selectSubject() {
 		var selectElem = document.getElementById("subject");
@@ -32,33 +21,44 @@
 		case "0":
 		  document.getElementById("curDirVal").innerText = "Grammer Punctuation";
 		  url = "json/schools_grammer_punctuation_list.json";
-		  loadJSON(url,containerID);
+		  updateTable(url, containerID);
 		  break;
 		case "1":
 		  document.getElementById("curDirVal").innerText = "Numeracy";
 		  url = "json/schools_numeracy_list.json";
-		  loadJSON(url,containerID);
+		  updateTable(url,containerID);
 		  break;
 		case "2":
 		  document.getElementById("curDirVal").innerText = "Persuasive Writing";
 		  url = "json/schools_persuasive_writing_list.json";
-		  loadJSON(url,containerID);
+		  updateTable(url,containerID);
 		  break;
 		case "3":
 		  document.getElementById("curDirVal").innerText = "Reading";
 		  url = "json/schools_reading_list.json";
-		  loadJSON(url,containerID);
+		  updateTable(url,containerID);
 		  break;
 		case "4":
 		  document.getElementById("curDirVal").innerText = "Spelling";
 		  url = "json/schools_spelling_list.json";
-		  loadJSON(url,containerID);
+		  updateTable(url,containerID);
 		  break;
 		default:
 		  console.log("user selecting option error!");
 		}	
 	}
 	
+	// update the table body data
+	function updateTable(url, containerID) {
+		loadJSON(url,containerID);
+		var tbStr = localStorage.tbd;
+		$("#tableData").tablesorter({ sortList: [[0,0]] });
+		$("#tableData")
+	    .find('tbody').append($(tbStr))
+	    .trigger("update",true);
+	    return false;
+	}
+
 	// clear table before loading new data
 	function emptyChild(nodeParent) {
 		var myNode = document.getElementById(nodeParent);
@@ -84,16 +84,16 @@
 	  if (xmlhttp.readyState==4 && xmlhttp.status==200)
 	    {
 	    var jsonObj = JSON.parse(xmlhttp.responseText);
-	    //console.log(jsonObj);
 	    dataHandler(jsonObj,containerID);
 	    }
 	  }
-	xmlhttp.open("GET",url,true);
+	xmlhttp.open("GET",url,false);
 	xmlhttp.send();
 	}
 	
 	// json format handler
 	function dataHandler(jsonObj,containerID) {
+			var str;
     		console.log("fetching jason data for table ID: "+containerID);
          	console.log("initial.");
 			var arrayLength = jsonObj["schools"].length;
@@ -101,26 +101,23 @@
 			console.log("schools length:" + arrayLength);
 			console.log("school depth:" + arrayDepth);
 			// row data builder
-			var tb = document.getElementById(containerID);
 			var tdName = ["schoolName","latestY3","latestY5","latestY7","latestY9","rawGainY3Y5","factoredGainY3Y5","latestGainInGainY3Y5","glgY3Y5"];
  			for(var i = 0; i< arrayLength; i++)
  			{
-	 			var tr = document.createElement('tr');
+ 					str+= "<tr>";
 	 				for(var j = 0; j< tdName.length; j++)
 		 			{
 		 				if(j==0)
 		 				{
-				 			var td = document.createElement('td');
-				 			td.innerText = jsonObj["schools"][i]["school"][tdName[j]];
+				 			str+= "<td>"+jsonObj["schools"][i]["school"][tdName[j]]+"</td>";
 				 		}
 				 		else
 				 		{
-				 			var td = document.createElement('td');
-				 			td.innerText = jsonObj["schools"][i][tdName[j]];
+				 			str+= "<td>"+jsonObj["schools"][i][tdName[j]]+"</td>";
 				 		}
-		 				tr.appendChild(td);
 		 			}
-	 			tb.appendChild(tr);
+	 				str+="</tr>";
  			}
 			console.log("end.");
+			localStorage.tbd = str.substring(9);
     }
